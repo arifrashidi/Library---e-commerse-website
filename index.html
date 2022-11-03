@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b7ef072d61.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </head>
+
+  <!-- nav -->
+
+  <body>
+    <section id="landing">
+      <nav>
+        <div class="nav_container">
+          <img src="./assets/Library.svg" alt="" class="nav_logo/>
+          <ul class="nav_links">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#features">Books</a>
+            </li>
+          </ul>
+          <button class="nav_button_menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="nav_menu_backdrop">
+            <button
+              class="nav_button_menu nav_button_menu_closed"
+              onclick="closeMenu()"
+            >
+              <i class="fas fa-times"></i>
+            </button>
+            <ul>
+              <li>
+                <a href="#" onclick="closeMenu()">Home</a>
+              </li>
+              <li>
+                <a href="#" onclick="closeMenu()">Contact</a>
+              </li>
+              <li>
+                <a href="#features" onclick="closeMenu()">Books</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- header -->
+
+      <header>
+        <div class="header_container">
+          <div class="header_description">
+            <h1>Malaysia's most awarded online library platform</h1>
+            <h2>
+              Find your dream book with <span class="text_purple">Library</span>
+            </h2>
+            <button>
+              <a href="#features" class="header_container_button_a"
+                >Browse Books</a
+              >
+            </button>
+          </div>
+          <figure>
+            <img src="./assets/Man reading-amico.svg" alt="" />
+          </figure>
+        </div>
+      </header>
+    </section>
+
+    <!-- highlight -->
+
+    <main>
+      <section id="highlight">
+        <div class="container">
+          <div class="row">
+            <h2>Why choose <span class="text_purple">Library?</span></h2>
+            <div class="highlight_wrapper">
+              <div class="highlight_wrapper_content">
+                <div class="highlight_image">
+                  <i class="fas fa-bolt"></i>
+                  <h3>Easy and quick</h3>
+                  <p>Get access to the book you purchased online instantly.</p>
+                </div>
+              </div>
+              <div class="highlight_wrapper_content">
+                <div class="highlight_image">
+                  <i class="fa-solid fa-book"></i>
+                  <h3>10,000+ Books</h3>
+                  <p>Library has books in all your favourite categories.</p>
+                </div>
+              </div>
+              <div class="highlight_wrapper_content">
+                <div class="highlight_image">
+                  <i class="fa-solid fa-money-bill-wave"></i>
+                  <h3>Affordable</h3>
+                  <p>Get your hands on popular books for as little as RM20.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- features -->
+
+      <section id="features">
+        <div class="container">
+          <div class="row">
+            <h2>Features <span class="text_purple">Books</span></h2>
+            <div class="features_books">
+              <div class="features_book">
+                <figure>
+                  <img src="./assets/Manga_book_1.jpg" alt="" />
+                </figure>
+                <div class="features_book_title">
+                  <h4>Goodnight Punpun</h4>
+                </div>
+                <div class="features_book_rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="features_book_price">
+                  <span class="features_book_price_before">RM89.90</span>
+                  Rm65.90
+                </div>
+              </div>
+              <div class="features_book">
+                <figure>
+                  <img src="./assets/Manga_book_2.jpg" alt="" />
+                </figure>
+                <div class="features_book_title">
+                  <h4>Berserk (Deluxe Edition)</h4>
+                </div>
+                <div class="features_book_rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="features_book_price">
+                  <span class="features_book_price_before">RM296.44</span>
+                  Rm325.50
+                </div>
+              </div>
+              <div class="features_book">
+                <figure>
+                  <img src="./assets/Manga_book_3.jpg" alt="" />
+                </figure>
+                <div class="features_book_title">
+                  <h4>21th Century Boys</h4>
+                </div>
+                <div class="features_book_rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="features_book_price">
+                  <span class="features_book_price_before">RM91.77</span>
+                  Rm64.33
+                </div>
+              </div>
+              <div class="features_book">
+                <figure>
+                  <img src="./assets/Manga_book_4.jpg" alt="" />
+                </figure>
+                <div class="features_book_title">
+                  <h4>One Punch Man</h4>
+                </div>
+                <div class="features_book_rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="features_book_price">
+                  <span class="features_book_price_before">RM59.90</span>
+                  Rm35.50
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- best_selling -->
+
+      <section id="best_selling">
+        <div class="container">
+          <div class="row">
+            <h2>Best Selling <span class="text_purple">Books</span></h2>
+
+            <div class="best_selling_books">
+              <div class="best_selling_book">
+                <figure>
+                  <img src="./assets/Manga_book_11.jpg" alt="" />
+                </figure>
+                <div class="best_selling_book_title">
+                  <h4>Cikgu Boom</h4>
+                </div>
+                <div class="best_selling_book_rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="best_selling_book_price">
+                  <span class="best_selling_book_price_before">RM20.50</span>
+                  Rm14.90
+                </div>
+              </div>
+              <div class="best_selling_book">
+                <figure>
+                  <img src="./assets/book-2.jpeg" alt="" />
+                </figure>
+                <div class="best_selling_book_title">
+                  <h4>Be Obsessed Or Be Average</h4>
+                </div>
+                <div class="best_selling_book_rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="best_selling_book_price">
+                  <span class="best_selling_book_price_before">RM76.44</span>
+                  Rm35.50
+                </div>
+              </div>
+              <div class="best_selling_book">
+                <figure>
+                  <img src="./assets/book-3.jpeg" alt="" />
+                </figure>
+                <div class="best_selling_book_title">
+                  <h4>Rich Dad Poor Dad</h4>
+                </div>
+                <div class="best_selling_book_rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="best_selling_book_price">
+                  <span class="best_selling_book_price_before">RM61.44</span>
+                  Rm42.44
+                </div>
+              </div>
+              <div class="best_selling_book">
+                <figure>
+                  <img src="./assets/book-4.jpeg" alt="" />
+                </figure>
+                <div class="best_selling_book_title">
+                  <h4>Cashflow Quadrant</h4>
+                </div>
+                <div class="best_selling_book_rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="best_selling_book_price">
+                  <span class="best_selling_book_price_before">RM29.20</span>
+                  Rm15.10
+                </div>
+              </div>
+              <div class="best_selling_book">
+                <figure>
+                  <img src="./assets/Manga_book_5.jpg" alt="" />
+                </figure>
+                <div class="best_selling_book_title">
+                  <h4>Blame!</h4>
+                </div>
+                <div class="best_selling_book_rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="best_selling_book_price">
+                  <span class="best_selling_book_price_before">RM119.90</span>
+                  Rm82.44
+                </div>
+              </div>
+              <div class="best_selling_book">
+                <figure>
+                  <img src="./assets/Manga_book_7.jpg" alt="" />
+                </figure>
+                <div class="best_selling_book_title">
+                  <h4>Under 18 Attitude</h4>
+                </div>
+                <div class="best_selling_book_rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="best_selling_book_price">
+                  <span class="best_selling_book_price_before">RM11.90</span>
+                  Rm8.90
+                </div>
+              </div>
+              <div class="best_selling_book">
+                <figure>
+                  <img src="./assets/Manga_book_8.jpg" alt="" />
+                </figure>
+                <div class="best_selling_book_title">
+                  <h4>Under 18 Elite</h4>
+                </div>
+                <div class="best_selling_book_rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="best_selling_book_price">
+                  <span class="best_selling_book_price_before">RM11.90</span>
+                  Rm8.90
+                </div>
+              </div>
+              <div class="best_selling_book">
+                <figure>
+                  <img src="./assets/Manga_book_9.jpg" alt="" />
+                </figure>
+                <div class="best_selling_book_title">
+                  <h4>Juji Ito (Remina)</h4>
+                </div>
+                <div class="best_selling_book_rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="best_selling_book_price">
+                  <span class="best_selling_book_price_before">RM29.90</span>
+                  Rm19.20
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPLORE -->
+
+      <section id="explore">
+        <div class="container">
+          <div class="row row_column">
+            <h2>Explore More<span class="text_purple"> Books</span></h2>
+            <button>Browse Books</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="container">
+        <div class="row row_column">
+          <a href="#">
+            <figure>
+              <img src="./assets/Library.svg" alt="" />
+            </figure>
+          </a>
+          <div class="footer_copyright">Copyright © 2022 Library</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
