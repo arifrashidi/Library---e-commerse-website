@@ -1,5 +1,5 @@
 function openMenu(){
-    document.body.classList += " menu_open"
+    document.body.classList.add("menu_open")
 
 }
 

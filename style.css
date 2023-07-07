@@ -63,7 +63,7 @@ button:active {
   align-items: center;
 }
 
-/*🔸 NAV */
+/*🔸 Nav */
 
 nav {
   height: 80px;
@@ -123,9 +123,11 @@ nav {
   color: white;
 }
 
+/*🔸 Modal Window */
+
 .nav_button_menu {
   background-color: transparent;
-  font-size: 40px;
+  font-size: 2rem;
   text-align: center;
   border: none;
   color: #7342d6;
@@ -138,7 +140,8 @@ nav {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: #242424;
+  backdrop-filter: blur(10px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
   z-index: 100;
   display: flex;
   justify-content: center;
@@ -164,6 +167,7 @@ nav {
   top: 10px;
   padding: 8px;
   color: white;
+  font-size: 2.4rem;
 }
 
 .nav_menu_backdrop ul {
@@ -178,10 +182,10 @@ nav {
 
 .nav_menu_backdrop a {
   color: white;
-  font-size: 32px;
+  font-size: 26px;
 }
 
-/*🔸 HEADER */
+/*🔸 Header */
 
 #landing {
   background-color: rgba(115, 66, 214, 0.1);
@@ -233,7 +237,7 @@ OLD BUTTON
 
 */
 
-/*🔸 NEW BUTTON */
+/*🔸 New Button */
 
 .header_container button a {
   color: #7342d6;
@@ -324,7 +328,7 @@ OLD BUTTON
   z-index: 2;
 }
 
-/*🔸 HIGHLIGHTS */
+/*🔸 Highlight */
 
 #highlight {
   position: relative;
@@ -389,7 +393,7 @@ OLD BUTTON
   margin-bottom: 6px;
 }
 
-/*🔸 FEATURES */
+/*🔸 Features */
 
 #features {
   background-color: rgba(115, 66, 214, 0.1);
@@ -449,7 +453,7 @@ OLD BUTTON
   padding-right: 8px;
 }
 
-/*🔸 BEST_SELLING */
+/*🔸 Best Selling */
 
 .best_selling_books {
   display: flex;
@@ -511,7 +515,7 @@ OLD BUTTON
   padding-right: 8px;
 }
 
-/*🔸 EXPLORE */
+/*🔸 Explore */
 
 #explore {
   background-color: rgba(115, 66, 214, 0.1);
@@ -534,7 +538,7 @@ OLD BUTTON
   background-color: #7342d6;
 }
 
-/*🔸 FOOTER */
+/*🔸 Footer */
 
 footer {
   background-color: #242424;
@@ -550,7 +554,7 @@ footer figure {
   color: white;
 }
 
-/*🔸 MEDIA QUERIES: 768px */
+/*🔸 Media Queries: 768px */
 
 @media (max-width: 768px) {
   .header_container {
@@ -602,7 +606,7 @@ footer figure {
   }
 }
 
-/*🔸 MEDIA QUERIES: 550px */
+/*🔸 Media Queries: 550px */
 
 @media (max-width: 550px) {
   .nav_links {
@@ -657,17 +661,17 @@ footer figure {
   .best_selling_book_price {
     font-size: 14px;
   }
+
+  footer figure {
+    width: 140px;
+  }
 }
 
-/*🔸 MEDIA QUERIES: 440px */
+/*🔸 Media Queries: 440px */
 
 @media (max-width: 400px) {
   nav {
     margin-bottom: 50px;
-  }
-
-  .nav_button_menu {
-    font-size: 32px;
   }
 
   .header_description {
@@ -725,4 +729,15 @@ footer figure {
   .best_selling_book_price {
     font-size: 14px;
   }
+
+  footer figure {
+    width: 120px;
+  }
+
+
+  .nav_menu_backdrop a {
+    color: white;
+    font-size: 22px;
+  }
 }
+
