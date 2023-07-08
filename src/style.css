@@ -105,7 +105,6 @@ nav {
 .nav_links li:nth-child(1):hover,
 .nav_links li:nth-child(2):hover {
   transform: translateY(-2px);
-  text-decoration: underline;
 }
 
 .nav_links li:last-child {
@@ -335,7 +334,7 @@ OLD BUTTON
 }
 
 #highlight:before {
-  background: url(./assets/wave.svg);
+  background: url(../assets/wave.svg);
   content: "";
   position: absolute;
   width: 101vw;
@@ -349,7 +348,7 @@ OLD BUTTON
 }
 
 #highlight:after {
-  background: url(./assets/wave.svg);
+  background: url(../assets/wave.svg);
   content: "";
   position: absolute;
   width: 101vw;
@@ -552,6 +551,11 @@ footer figure {
 
 .footer_copyright {
   color: white;
+  margin-bottom: 10px;
+}
+
+.creator {
+  color: white;
 }
 
 /*🔸 Media Queries: 768px */
@@ -733,7 +737,6 @@ footer figure {
   footer figure {
     width: 120px;
   }
-
 
   .nav_menu_backdrop a {
     color: white;

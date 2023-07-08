@@ -1,3 +1,4 @@
+
 function openMenu(){
     document.body.classList.add("menu_open")
 
