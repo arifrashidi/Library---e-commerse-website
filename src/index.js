@@ -18,3 +18,5 @@ nav_closed_window_button.forEach(el => {
 });
 
 console.log("Thanks for visiting");
+
+//🔸 Remove hover effect on main button 
